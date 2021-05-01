@@ -1,0 +1,185 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 80px;
+    box-shadow: 3px 3px 3px black, 6px 6px 6px black, inset 1px 1px 6px rgba(255, 255, 255, 0.589);
+}
+
+button {
+    margin: 30px;
+    padding: 10px;
+    width: 100px;
+    background: none;
+    border-radius: 10px 10px 10px 10px;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px black, 2px 3px 6px black, inset 0 2px 1px rgba(255, 255, 255, 0.712);
+}
+
+.deg {
+    width: auto;
+}
+
+.color {
+    position: absolute;
+    bottom: 40%;
+    height: 25px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 3px;
+    font-size: large;
+    letter-spacing: 1.5px;
+    text-align: center;
+    background-color: rgba(211, 210, 210, 0.418);
+    user-select: all;
+}
+
+#copy {
+    position: absolute;
+    bottom: 30%;
+}
+
+.change:hover {
+    background-color: rgba(120, 190, 49, 0.74);
+}
+
+.reset:hover {
+    background-color: rgba(180, 8, 43, 0.836);
+}
+
+.deg:hover {
+    background-color: rgba(93, 214, 230, 0.767);
+}
+
+.change:hover,
+.reset:hover,
+.deg:hover {
+    transition: all 0.5s cubic-bezier(.1, .58, .76, 1.06);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    h1 {
+        position: absolute;
+        top: 50px;
+        font-size: 50px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 3px 3px 3px black, 6px 6px 6px black, inset 1px 1px 6px rgba(255, 255, 255, 0.589);
+    }
+    .color {
+        position: absolute;
+        bottom: 30%;
+        height: 20px;
+        white-space: pre-wrap;
+        width: auto;
+        border: 2px solid black;
+        border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: medium;
+        text-align: center;
+        background-color: rgba(211, 210, 210, 0.418);
+        user-select: all;
+    }
+    #copy {
+        position: absolute;
+        bottom: 15%;
+    }
+    .deg {
+        width: 125px;
+    }
+    .change,
+    .reset {
+        width: 110px;
+    }
+}
+
+
+/*Landscape*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    h1 {
+        position: absolute;
+        top: 50px;
+        font-size: 35px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 3px 3px 3px black, 6px 6px 6px black, inset 1px 1px 6px rgba(255, 255, 255, 0.589);
+    }
+    .color {
+        position: absolute;
+        bottom: 30%;
+        height: 35px;
+        white-space: pre-wrap;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: medium;
+        text-align: center;
+        background-color: rgba(211, 210, 210, 0.418);
+        user-select: all;
+    }
+    #copy {
+        position: absolute;
+        bottom: 10%;
+    }
+    .deg {
+        width: 125px;
+    }
+    .change,
+    .reset {
+        width: 110px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        position: absolute;
+        top: 50px;
+        font-size: 35px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 3px 3px 3px black, 6px 6px 6px black, inset 1px 1px 6px rgba(255, 255, 255, 0.589);
+    }
+    .color {
+        position: absolute;
+        bottom: 30%;
+        height: 35px;
+        white-space: pre-wrap;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: medium;
+        text-align: center;
+        background-color: rgba(211, 210, 210, 0.418);
+        user-select: all;
+    }
+    #copy {
+        position: absolute;
+        bottom: 10%;
+    }
+    .deg {
+        width: 125px;
+    }
+    .change,
+    .reset {
+        width: 110px;
+    }
+}
