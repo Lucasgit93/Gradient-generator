@@ -76,7 +76,7 @@ button {
     transition: all 0.5s cubic-bezier(.1, .58, .76, 1.06);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1080px) and (orientation: landscape) {
     h1 {
         position: absolute;
         top: 50px;
