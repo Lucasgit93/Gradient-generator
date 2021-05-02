@@ -86,7 +86,7 @@ button {
     }
     .color {
         position: absolute;
-        bottom: 30%;
+        bottom: 25%;
         height: 20px;
         white-space: pre-wrap;
         width: auto;
@@ -100,7 +100,7 @@ button {
     }
     #copy {
         position: absolute;
-        bottom: 15%;
+        bottom: 5%;
     }
     .deg {
         width: 125px;
